@@ -17,14 +17,14 @@ import htmlmin
 from github import Github
 from typing import Optional
 
-os.environ['OPENAI_API_KEY'] = "sk-proj-vNil9ERPJaUfirRUSAn6T3BlbkFJUEUrqYFlsRkpYyPwWoC4"
+os.environ['OPENAI_API_KEY'] = ""
 os.environ['LANGCHAIN_TRACING_V2'] = "true"
-os.environ['LANGCHAIN_API_KEY'] = "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"
+os.environ['LANGCHAIN_API_KEY'] = ""
 
 ROOT_DIR = "./"
 VALID_FILE_TYPES = {"py", "txt", "md", "cpp", "c", "java", "js", "html", "css", "ts", "json", "gradle", "sh"}
-GITHUB_TOKEN = "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"
-GITHUB_USERNAME = "pbiswas33"
+GITHUB_TOKEN = ""
+GITHUB_USERNAME = ""
 
 @tool
 def create_react_app_with_vite():
